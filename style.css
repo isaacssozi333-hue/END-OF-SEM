@@ -1,17 +1,53 @@
 nav{
-    background-color: grey;
-    border-bottom: solid blueviolet;
-    border-top: solid blueviolet;
-    padding: 50px;
-    height: 20px;
+    background-color:olive;
+    padding: 40px;
+    height: 10px;
+    margin-top: 20PX;
+    border-width: 200pxS;
+
  }
 nav a{
-    color:blue;
-    font-family:cursive;
+    color:black;
+    nav-down: current;
+    nav-down: initial;
     
 }
 nav a:hover{
     color: blueviolet;
     background-color: bisque;
+    border-bottom: solid purple;
+    border-radius: 100%;
     
 }
+main{
+}
+body{
+    background-color: papayawhip;
+    background-image: url('789.jpg');
+    background-size: cover;
+}
+.flex-item {
+    display: flex;
+    padding: 8cqmin; 
+    margin-left: 40px; 
+    border-radius:2cqi; 
+    width: 850px;
+    height: 250px;
+    flex-direction:column;
+    min-height: 400px ; 
+    align-items: flex-start;
+    justify-content:center;
+    background-color:  plum;
+    text-align:left;
+    
+ }
+ .flex-container {
+               display: flex;
+
+ }
+ .flex-item img {
+               border-radius: 80%;
+               border: solid gray;
+               max-height: 100px;
+               max-width: 200px;
+ }
