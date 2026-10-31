@@ -1,7 +1,17 @@
- .nav-bar{
+nav{
     background-color: grey;
-    border: solid burlywood;
-    border-bottom: 5px;
-    padding: 20px;
+    border-bottom: solid blueviolet;
+    border-top: solid blueviolet;
+    padding: 50px;
     height: 20px;
  }
+nav a{
+    color:blue;
+    font-family:cursive;
+    
+}
+nav a:hover{
+    color: blueviolet;
+    background-color: bisque;
+    
+}
