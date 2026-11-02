@@ -49,5 +49,14 @@ body{
                border-radius: 80%;
                border: solid gray;
                max-height: 100px;
-               max-width: 200px;
+               max-width: 100px;
+ }
+ section img{
+             border-radius: 40px;
+             border: solid greenyellow;
+             width: 200px;
+             height: 200px;
+ }
+ video{
+    
  }
